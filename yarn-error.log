@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\C280875\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add Axios
+
+PATH: 
+  C:\Users\C280875\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\C280875\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jre7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Sybase\SQL Anywhere 9\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\SQL Anywhere 9\drivers;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.3\win32;C:\Program Files\Perforce;C:\Program Files\7-zip;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Dominio\PBCVS;C:\Program Files (x86)\Dominio\Utils;C:\Program Files (x86)\dotnet;C:\Program Files\dotnet;C:\Program Files (x86)\Appeon\Shared\PowerBuilder;C:\Program Files (x86)\Appeon\Shared\PowerBuilder\x64;C:\Program Files (x86)\Appeon\PowerBuilder 19.0;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Sybase\Adaptive Server Anywhere 9.0\Win32;C:\Program Files\Sybase\Adaptive Server Anywhere 9.0\Win32;C:\Program Files (x86)\PBForce;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\SQL Anywhere 16\bin64;C:\Program Files\SQL Anywhere 16\bin32;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\C280875\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT;C:\Program Files\heroku\bin;C:\Users\C280875\AppData\Roaming\npm;C:\Users\C280875\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/Axios: Not found
+      at Request.params.callback [as _callback] (C:\Users\C280875\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\C280875\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\C280875\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\C280875\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
